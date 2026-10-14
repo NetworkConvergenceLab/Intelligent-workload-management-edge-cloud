@@ -1,4 +1,4 @@
-# Paired Bootstrap Significance Tests
+# Section VI-C: Paired Bootstrap Significance Tests
 
 XGBoost = baseline; n=10,000 bootstrap resamples.  
 * indicates p<0.05. ↑ = XGBoost performs better, ↓ = XGBoost performs worse.

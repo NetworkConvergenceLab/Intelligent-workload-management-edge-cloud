@@ -1,4 +1,4 @@
-# Hyperparameters
+# Section V-A: Hyperparameters
 
 Bayesian optimisation was used for all models on a 20% hold-out validation subset of the training data.
 
