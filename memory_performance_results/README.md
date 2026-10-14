@@ -1,4 +1,4 @@
-# Memory Performance Results
+# Section VI-C: Memory Performance Results
 
 Detailed evaluation metrics for memory prediction across cloud and edge DC settings.
 Corresponds to Figures 2d, 2e, and 2f in the paper.
