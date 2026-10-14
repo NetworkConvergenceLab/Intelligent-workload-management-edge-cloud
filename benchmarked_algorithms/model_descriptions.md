@@ -1,4 +1,4 @@
-# Section IV-B: Benchmarked Forecasting Models
+# Benchmarked Forecasting Models
 
 ## ARIMAX
 ARIMAX extends ARIMA by incorporating exogenous variables into the forecasting process, allowing the model to exploit information beyond the historical target series. ARIMAX retains the (p,d,q) structure but additionally includes explanatory variables that may influence future resource demand. In this work, these exogenous inputs consist of engineered workload features and temporal features (hour-of-day and day-of-week). By incorporating additional workload context, ARIMAX can capture relationships that are not represented by the autoregressive component alone, making it well suited for workload forecasting applications.
