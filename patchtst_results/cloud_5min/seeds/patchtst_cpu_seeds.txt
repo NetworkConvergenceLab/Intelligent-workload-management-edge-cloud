@@ -1,6 +1,6 @@
 ============================================================
 PatchTST — Cloud 5min CPU
-Architecture: Nie et al. 2023 (patch-based transformer)
+Architecture:(patch-based transformer)
 patch_len=4 | stride=4 | n_heads=8 | enc_layers=2 | d_model=64
 Seeds: [42, 123, 456, 789, 1024]
 Spike threshold: 75th percentile
