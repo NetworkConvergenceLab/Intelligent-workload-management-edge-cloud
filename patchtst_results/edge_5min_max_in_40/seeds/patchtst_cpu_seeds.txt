@@ -1,0 +1,24 @@
+============================================================
+PatchTST — Edge 5min-max-in-40 CPU
+Architecture: (patch-based transformer)
+patch_len=8 | stride=6 | n_heads=8 | enc_layers=2 | d_model=128
+Seeds: [42, 123, 456, 789, 1024]
+Spike threshold: 75th percentile
+============================================================
+RMSE     : 0.3804 ± 0.0081
+MAE      : 0.2823 ± 0.0036
+MAPE     : 28.0355 ± 0.5938%
+R²       : -0.0457 ± 0.0450
+sMAPE    : 27.3610 ± 0.3711
+Precision: 28.8% ± 26.3%
+Recall   : 2.7% ± 2.7%
+F1       : 4.9% ± 4.9%
+Train Time: 64.32s ± 25.85s
+Total Time: 321.60s
+------------------------------------------------------------
+Per-seed results:
+  Seed 42: RMSE=0.3944 | R²=-0.1236 | F1=0.0% | Time=31.47s
+  Seed 123: RMSE=0.3789 | R²=-0.0371 | F1=11.0% | Time=95.84s
+  Seed 456: RMSE=0.3734 | R²=-0.0071 | F1=5.5% | Time=70.01s
+  Seed 789: RMSE=0.3779 | R²=-0.0317 | F1=0.0% | Time=45.42s
+  Seed 1024: RMSE=0.3774 | R²=-0.0293 | F1=8.1% | Time=78.85s
